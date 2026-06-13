@@ -1,0 +1,135 @@
+{
+  "hero": {
+    "available": "Available for New Projects",
+    "navWork": "Work",
+    "navServices": "Services",
+    "navExperience": "Experience",
+    "navContact": "Contact",
+    "ctaButton": "Let's Talk",
+    "nameFirst": "ANDREA",
+    "nameLast": "DALAY",
+    "role": "SEO Copywriter",
+    "tagline": "Building AI-native content systems for local, multi-location, and eCommerce brands.",
+    "collaborateButton": "Let's collaborate",
+    "linkedinUrl": "#",
+    "driveUrl": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu",
+    "githubUrl": "#",
+    "email": "andreaclarizzed@gmail.com"
+  },
+  "stats": [
+    {"value": "$10M", "label": "Tracked Sales"},
+    {"value": "22M+", "label": "Video Views"},
+    {"value": "3 yrs", "label": "Writer → Manager"},
+    {"value": "6 yrs", "label": "YMYL Experience"}
+  ],
+  "projects": [
+    {
+      "number": "01",
+      "category": "HEALTH ECOMMERCE",
+      "title": "SEO program from zero in a Meta-ad-restricted category.",
+      "description": "Mandala Studio supplements. Built topic clusters, schema, internal linking, and search-intent-mapped category copy in parallel with VSLs and advertorials powering the funnel.",
+      "tags": ["Direct Response", "Technical SEO", "Amazon"],
+      "metric": "$10M tracked sales · 22M+ views",
+      "label": "Case Study",
+      "link": "https://drive.google.com/drive/u/0/folders/1x9isuoGYBUYKa1G7nCk2KfZbfhCccwdD"
+    },
+    {
+      "number": "02",
+      "category": "LOCAL SEO",
+      "title": "Local SEO for small-to-large businesses, single and multi-location.",
+      "description": "Full stack: GBP strategy, NAP consistency, local schema, review velocity, and city-page architecture that doesn't trip doorway penalties. SAB and brick-and-mortar across US clients.",
+      "tags": ["Local SEO", "GBP", "Schema"],
+      "metric": "Page-1 local pack across YMYL",
+      "label": "Case Study",
+      "link": "https://drive.google.com/drive/u/0/folders/1xsgaYNYmlXjhQQwxFfLx2meKBNFXGprW"
+    },
+    {
+      "number": "03",
+      "category": "MULTI-LOCATION",
+      "title": "Scaling SEO across dozens of locations without cannibalization.",
+      "description": "Centralized content + schema framework with location-specific signals layered on top. Each location ranks for its own geo-modifier without competing with siblings.",
+      "tags": ["Multi-Location", "GBP at Scale", "Audits"],
+      "metric": "Consistent multi-site visibility",
+      "label": "Case Study",
+      "link": "https://drive.google.com/drive/u/0/folders/10mCsfUD1BRXyxAquVpJ_MLqmcPz4Yzm4"
+    },
+    {
+      "number": "04",
+      "category": "ECOMMERCE SEO",
+      "title": "Category and product page systems that rank and convert.",
+      "description": "Technical architecture (faceted nav, Product/Review schema, PLP → PDP linking) stacked with conversion copy (benefit-led PDPs, A+ Content using A9 ranking factors).",
+      "tags": ["eCommerce", "Amazon A+", "CRO Copy"],
+      "metric": "$10M contribution at Mandala",
+      "label": "Case Study",
+      "link": "https://drive.google.com/drive/u/0/folders/192ayfr5pXowT_ZUs0VRZGMEnPS8-HzMY"
+    },
+    {
+      "number": "05",
+      "category": "GEO / AI-SEARCH",
+      "title": "Writing content AI summarizers actually cite.",
+      "description": "Chunk-optimized passages, first-party data, expert quotes, structured FAQ for LLM ingestion. llms.txt, entity reinforcement, AI Overviews source tracking.",
+      "tags": ["GEO", "AEO", "LLM Citation"],
+      "metric": "Cited in AI Overviews + Perplexity",
+      "label": "Methodology",
+      "link": "https://drive.google.com/drive/u/0/folders/1mBYeAlYEdzAkr_OGZ-6od7N5ziN08XXC"
+    },
+    {
+      "number": "06",
+      "category": "AI TOOLING",
+      "title": "Building the SEO research tools instead of just using them.",
+      "description": "Custom Semrush MCP server (Python / FastMCP) exposing 12 APIs to Claude as agent tools. Multi-step research runs as workflows instead of dashboard clicks.",
+      "tags": ["Python", "FastMCP", "Claude"],
+      "metric": "Open source · GitHub",
+      "label": "Project",
+      "link": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu"
+    }
+  ],
+  "services": [
+    {"title": "SEO Strategy & Audits", "subtitle": "Technical, on-page, local, eCommerce"},
+    {"title": "Direct-Response Copywriting", "subtitle": "VSLs, advertorials, landing pages, ads"},
+    {"title": "Multi-Location & Local SEO", "subtitle": "GBP, schema, city pages, citations"},
+    {"title": "GEO / AI-Search Optimization", "subtitle": "LLM citation engineering, llms.txt"},
+    {"title": "AI Workflow Engineering", "subtitle": "Custom MCP servers, agent pipelines"}
+  ],
+  "experience": [
+    {"company": "Mandala Studio LLC", "role": "Lead Copywriter", "date": "2022 — 2025"},
+    {"company": "The Ad Firm", "role": "SEO Assistant Manager", "date": "2021 — 2024"},
+    {"company": "The Ad Firm", "role": "Content Manager", "date": "2020 — 2021"},
+    {"company": "The Ad Firm", "role": "Content Writer", "date": "2019 — 2020"},
+    {"company": "Freelance Projects", "role": "SEO & Copywriting Consultant", "date": "2020 — Present"}
+  ],
+  "process": {
+    "title": "From keyword to conversion — the 6-step system",
+    "steps": [
+      {"number": "01 — RESEARCH", "title": "Discovery", "description": "VoC interviews, review mining (Amazon, Reddit, G2), competitor teardowns. Semrush MCP runs SERP + gap analysis in parallel."},
+      {"number": "02 — INTENT MAP", "title": "Cluster", "description": "Keywords clustered by search intent — informational, commercial, transactional, navigational. Volume is secondary."},
+      {"number": "03 — BRIEF", "title": "Outline", "description": "SERP-aligned: PAA coverage, entity checklist, competitor gaps, internal linking targets, schema spec, conversion goal."},
+      {"number": "04 — DRAFT", "title": "Write", "description": "Schwartz awareness/sophistication hook, then Hook-Story-Offer or PAS body. First-party proof stacked throughout."},
+      {"number": "05 — OPTIMIZE", "title": "Ship", "description": "Structured data, internal linking equity, chunk-optimized passages for LLM citation, llms.txt where relevant."},
+      {"number": "06 — DECAY WATCH", "title": "Maintain", "description": "Monthly GSC query analysis, quarterly cannibalization audits, refresh cycles triggered by Core Updates and HCU rollouts."}
+    ]
+  },
+  "samples": [
+    {"title": "Direct Response & Writing", "items": ["Supplement VSL · long-form", "Advertorial · health eCommerce", "Amazon A+ · supplement PDP"], "link": "https://drive.google.com/drive/u/0/folders/1x9isuoGYBUYKa1G7nCk2KfZbfhCccwdD"},
+    {"title": "Local SEO", "items": ["GBP optimization audits", "Local schema samples", "Service-area work"], "link": "https://drive.google.com/drive/u/0/folders/1xsgaYNYmlXjhQQwxFfLx2meKBNFXGprW"},
+    {"title": "Multi-Location SEO", "items": ["Rollout playbook", "City page system", "Cannibalization audits"], "link": "https://drive.google.com/drive/u/0/folders/10mCsfUD1BRXyxAquVpJ_MLqmcPz4Yzm4"},
+    {"title": "eCommerce SEO", "items": ["Category page rewrites", "PDP benefit-led copy", "Amazon listing portfolio"], "link": "https://drive.google.com/drive/u/0/folders/192ayfr5pXowT_ZUs0VRZGMEnPS8-HzMY"},
+    {"title": "GEO / AI-Search", "items": ["GEO citation strategy", "llms.txt implementations", "LLM citation engineering"], "link": "https://drive.google.com/drive/u/0/folders/1mBYeAlYEdzAkr_OGZ-6od7N5ziN08XXC"},
+    {"title": "Semrush MCP & Notes", "items": ["MCP workflow walkthrough", "Agent research examples", "Build notes & GitHub"], "link": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu"}
+  ],
+  "tools": {
+    "technical": ["Screaming Frog", "Ahrefs Site Audit", "PageSpeed Insights", "Schema.org", "GSC Core Web Vitals"],
+    "keyword": ["Semrush", "Ahrefs", "SurferSEO", "Topic clusters", "SERP / intent analysis"],
+    "analytics": ["GA4", "Google Search Console", "Looker Studio", "Google Tag Manager", "BrightLocal"],
+    "ai": ["Claude + custom MCP", "ChatGPT · Perplexity", "Google AI Overviews", "llms.txt", "Python / FastMCP"]
+  },
+  "contact": {
+    "headline": "Let's talk.",
+    "subtitle": "Open to senior SEO copywriter, content lead, and AI-native content strategy roles. Remote, US hours.",
+    "email": "andreaclarizzed@gmail.com",
+    "linkedinUrl": "#",
+    "driveUrl": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu",
+    "githubUrl": "#"
+  },
+  "footer": "ANDREA CLARIZZE DALAY · QUEZON CITY, PH · © 2026"
+}
