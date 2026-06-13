@@ -4,4 +4,4 @@ node_modules/
 dist/
 .astro/
 .env
-tina/__generated__
+

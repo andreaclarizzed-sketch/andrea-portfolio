@@ -1,0 +1,81 @@
+fragment SiteParts on Site {
+  __typename
+  hero {
+    __typename
+    available
+    nameFirst
+    nameLast
+    role
+    tagline
+    ctaButton
+    collaborateButton
+    navWork
+    navServices
+    navExperience
+    navContact
+    linkedinUrl
+    driveUrl
+    githubUrl
+    email
+  }
+  stats {
+    __typename
+    value
+    label
+  }
+  projects {
+    __typename
+    number
+    category
+    title
+    description
+    tags
+    metric
+    label
+    link
+  }
+  services {
+    __typename
+    title
+    subtitle
+  }
+  experience {
+    __typename
+    company
+    role
+    date
+  }
+  process {
+    __typename
+    title
+    steps {
+      __typename
+      number
+      title
+      description
+    }
+  }
+  samples {
+    __typename
+    title
+    items
+    link
+  }
+  tools {
+    __typename
+    technical
+    keyword
+    analytics
+    ai
+  }
+  contact {
+    __typename
+    headline
+    subtitle
+    email
+    linkedinUrl
+    driveUrl
+    githubUrl
+  }
+  footer
+}
