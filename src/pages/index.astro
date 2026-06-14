@@ -53,7 +53,7 @@ a{color:inherit;text-decoration:none}
 .hero{padding:60px 0 80px;position:relative}
 .hero-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:end}
 .hero-left{padding-bottom:24px}
-.hero-tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);letter-spacing:.04em;margin-bottom:18px;text-transform:lowercase}
+.hero-tag{display:inline-flex;align-items:center;gap:10px;font-size:18px;color:var(--text);font-weight:500;letter-spacing:-.01em;margin-bottom:28px}
 .hero-tag::before{content:"";width:6px;height:6px;border-radius:50%;background:#52B788;box-shadow:0 0 0 4px rgba(82,183,136,.18);animation:pulse 2s infinite}
 @keyframes pulse{50%{box-shadow:0 0 0 8px rgba(82,183,136,0)}}
 .stat-strip{display:flex;gap:40px;margin-bottom:36px}
@@ -63,8 +63,8 @@ a{color:inherit;text-decoration:none}
 .stat-strip .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-top:4px}
 .hello{font-family:var(--serif);font-size:clamp(72px,12vw,180px);font-weight:400;line-height:.92;letter-spacing:-.025em;color:var(--text);margin-bottom:20px}
 .hello em{font-style:italic;color:var(--accent)}
-.hello-sub{font-size:14px;color:var(--muted);max-width:380px;line-height:1.6;margin-bottom:40px}
-.hello-sub b{color:var(--text);font-weight:500}
+.hello-sub{font-size:15px;color:var(--muted);max-width:520px;line-height:1.7;margin-bottom:40px}
+.hello-sub b{color:var(--text);font-weight:600}
 .scroll{display:inline-flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
 .scroll .dot{width:32px;height:32px;border-radius:50%;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;transition:all .25s}
 .scroll:hover .dot{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -223,7 +223,6 @@ footer.site .femail{color:#fff;font-weight:500}
   <nav class="topnav">
     <div class="brand"><span class="mark">a</span> Andrea Clarizze Dalay</div>
     <div class="navlinks">
-      <a href="#about">About</a>
       <a href="#work">Copywriting</a>
       <a href="#seo">SEO</a>
       <a href="#experience">Experience</a>
@@ -236,38 +235,12 @@ footer.site .femail{color:#fff;font-weight:500}
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-left">
-        <div class="hero-tag">Direct Response Copywriter</div>
-        <div class="stat-strip">
-          <div class="s"><div class="v">+<em>$10M</em></div><div class="l">Revenue Generated</div></div>
-          <div class="s"><div class="v">+<em>5</em></div><div class="l">Years Experience</div></div>
-        </div>
+        <div class="hero-tag"><span style="width:8px;height:8px;border-radius:50%;background:#52B788;box-shadow:0 0 0 4px rgba(82,183,136,.18);display:inline-block"></span> Direct Response Copywriter &amp; SEO Specialist</div>
         <h1 class="hello">Hello<em>.</em></h1>
-        <p class="hello-sub"><b>I'm Andrea</b> — a direct response copywriter and SEO specialist building AI-native content systems for health, wellness, and DTC brands.</p>
-        <a class="scroll" href="#about">Scroll down <span class="dot">↓</span></a>
+        <p class="hello-sub" set:html={hero.tagline.replace('I\'m Andrea — a', '<b>I\'m Andrea</b> — a')}></p>
+        <a class="scroll" href="#work">Scroll down <span class="dot">↓</span></a>
       </div>
       <div class="hero-right" aria-label="Andrea Clarizze Dalay"></div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about-eyebrow">● About Me</div>
-    <div class="about-grid" style="margin-top:24px">
-      <div class="about-text">
-        I'm a senior direct response copywriter, creative strategist, and SEO specialist with 5+ years of experience and over $10M in sales generated to date. I write high-converting copy that turns cold traffic into loyal customers for health, wellness, and DTC brands.
-        <div class="doodle">~</div>
-      </div>
-      <div class="stat-card">
-        <div class="badge">✦</div>
-        <div class="bignum">$10M+</div>
-        <div class="bigtxt">in client revenue generated through direct-response copy and SEO systems</div>
-        <div class="mini-portrait"></div>
-      </div>
-      <div class="about-right">
-        <div class="head"></div>
-        <div class="about-bullet">With 5+ years of experience, I've shipped high-converting copy and SEO programs for DTC, YMYL, and multi-location brands.</div>
-        <div class="about-bullet">I build AI-native content systems for local, national, and multi-location brands — driving rankings, conversions, and scalable growth.</div>
-      </div>
     </div>
   </section>
 

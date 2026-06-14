@@ -9,7 +9,7 @@
     "nameLine1": "ANDREA CLARIZZE",
     "nameLine2": "DALAY",
     "role": "Direct Response Copywriter & SEO Specialist",
-    "tagline": "Senior direct response copywriter, creative strategist, and SEO specialist with 5 years of experience and over $10M in sales generated to date. I write high-converting copy that turns cold traffic into loyal customers for health, wellness and DTC brands. As an SEO strategist, I build AI-native content systems for local, national, and multi-location brands \u2014 driving rankings, conversions, and scalable growth across service-area businesses and eCommerce catalogs.",
+    "tagline": "I'm Andrea \u2014 a senior direct response copywriter, creative strategist, and SEO specialist with 5 years of experience and over $5M in sales generated to date. I write high-converting copy that turns cold traffic into loyal customers for health, clothing, wellness and DTC brands. As an SEO strategist, I build full-scale strategies for local, national, and multi-location brands \u2014 driving rankings, conversions, and scalable growth across service-area businesses and eCommerce catalogs.",
     "collaborateButton": "Let's collaborate",
     "linkedinUrl": "#",
     "email": "andreaclarizzed@gmail.com"
@@ -37,23 +37,99 @@
       "number": "01",
       "slug": "01",
       "roleSection": "copy",
-      "category": "HEALTH AND WELLNESS",
-      "title": "DTC Health & Wellness Brand \u2014 Pain Relief / Compression Category",
-      "description": "Wrote ad copy, landing pages, and email sequences across top-performing channels. Paid Social drove $1.10M revenue at 47.69% session conversion rate; Direct landing pages drove $2.32M at 29.3% conversion.",
+      "category": "ECOMMERCE",
+      "title": "DTC eCommerce Brands",
+      "description": "Wrote ad copy, landing pages, and email sequences across top-performing channels for three DTC brands \u2014 health & wellness pain relief, boutique men's retail shorts, and high-end skincare. Each required a distinct voice for distinct audiences.",
       "tags": [
         "Direct Response",
         "Landing Pages",
         "Email",
         "Paid Social"
       ],
-      "metric": "$4.48M revenue \u00b7 2M+ sessions \u00b7 66% engagement \u00b7 34% CVR",
-      "label": "Case Study",
+      "metric": "3 DTC brands \u00b7 health, apparel & skincare",
+      "label": "Open Category",
       "link": "/projects/01",
       "detail": {
-        "client": "DTC Health & Wellness Brand (Pain Relief / Compression)",
-        "role": "Direct Response Copywriter & SEO Strategist",
-        "dateRange": "[date range]",
-        "overview": "Owned conversion copy across the brand's full acquisition funnel \u2014 ad creative, landing pages, and email sequences \u2014 for a US-based DTC pain relief and compression product line. Worked across paid social, paid search, email, and direct landing-page traffic, producing copy that scaled past industry-average conversion benchmarks in a highly competitive YMYL category.",
+        "client": "Three DTC eCommerce Brands (US-based, all clients redacted)",
+        "role": "Direct Response Copywriter",
+        "dateRange": "Recent engagements",
+        "isCategory": true,
+        "overview": "Direct-response copywriting and conversion content across three US-based DTC brands \u2014 a health & wellness pain relief brand, a men's boutique retail apparel store, and a high-end skincare retailer. Each required a distinctly different voice, funnel architecture, and audience research depth. Client identities and source URLs redacted; sample copywriting is held in a private Drive folder for client confidentiality.",
+        "subProjects": [
+          {
+            "num": "01",
+            "title": "DTC Health & Wellness Brand",
+            "category": "Pain Relief / Compression",
+            "source": "Source URL redacted",
+            "image": "/projects/seo-medtourism-keywords.png",
+            "imageCaption": "GA4 channel performance dashboard \u2014 client domain redacted.",
+            "overview": "DTC pain relief and compression product line operating in a Meta-ad-restricted health category. Target audience was older adults in chronic pain \u2014 meaning copy had to thread a YMYL needle: empathetic to the pain narrative without making medical claims that would trigger ad policy reviews. Funnel mixed cold traffic from paid social (Meta + TikTok) and warm traffic from direct landing pages and email lifecycle. Wrote VSL-style sales copy, advertorial intros, long-form landing pages, and full email sequences (welcome, browse-abandon, cart-abandon, post-purchase, win-back). All work was structured around documented voice-of-customer pulled from review mining and chat logs.",
+            "deliverables": [
+              "Direct-response ad copy across Meta and TikTok (multiple angles tested weekly)",
+              "Long-form sales pages and pre-sale advertorials",
+              "Email lifecycle flows: welcome, browse-abandon, cart-abandon, post-purchase, win-back",
+              "Funnel-stage messaging mapped to Schwartz awareness levels",
+              "PDP and landing page rewrites tuned to GA4 conversion data",
+              "Meta-policy-aware copy that avoids health claim violations"
+            ],
+            "resultsHeadline": "What the work produced",
+            "results": [
+              "$4.48M total revenue \u00b7 2M+ sessions \u00b7 66% engagement rate \u00b7 34% session conversion rate",
+              "Paid Social: $1.10M revenue at 47.69% session conversion rate",
+              "Direct (landing pages): $2.32M revenue at 29.3% conversion"
+            ],
+            "source": "Source: GA4",
+            "samplesNote": "Sample copywriting is not available on this page \u2014 only viewable in the private Drive folder for client confidentiality."
+          },
+          {
+            "num": "02",
+            "title": "Men's Retail Store",
+            "category": "Apparel / Chinos",
+            "source": "Source URL redacted",
+            "image": "/projects/ecom-frankster.png",
+            "imageCaption": "Collection page \u2014 brand logo redacted.",
+            "overview": "Boutique Australian-style men's chino brand selling into the US market. Brand voice needed to sit between practical (everyday wearable, machine-washable, 100-day guarantee) and aspirational (the look, the fabric, the lifestyle) \u2014 without sounding like another generic DTC men's apparel brand. Wrote collection pages, product pages, and supporting content to push qualified browse traffic deeper into the conversion funnel. Focused on bridging the gap between trust signals (free returns, USA shipping, 5-star reviews) and the actual buying decision.",
+            "deliverables": [
+              "Collection page copy across 15+ chino and shorts SKU collections",
+              "Product page descriptions optimized for both buyer and crawler",
+              "Trust-stack content (size guides, fit guarantees, returns flow)",
+              "Email sequences for browse-abandon and post-purchase",
+              "Brand voice guide and tone-of-voice documentation"
+            ],
+            "resultsHeadline": "What the work produced",
+            "results": [
+              "Voice consistency across 15+ collection pages",
+              "Higher engagement and time-on-page on top-converting PDPs",
+              "Reduced bounce on category landing pages following rewrite"
+            ],
+            "source": "Source URL redacted for client confidentiality",
+            "samplesNote": "Live copy and brand guidelines are in the private Drive folder."
+          },
+          {
+            "num": "03",
+            "title": "High-End Skincare Retail",
+            "category": "Luxury Beauty / Multi-Brand Retailer",
+            "source": "Source URL redacted",
+            "image": "/projects/ecom-skincare.png",
+            "imageCaption": "ALL BRANDS landing page \u2014 retailer name and logo redacted.",
+            "overview": "Curated high-end multi-brand skincare retailer. Audience skews older, higher-income, more educated on actives, brands, and rituals. That changed everything about the voice \u2014 copy needed to assume product knowledge, lead with formulation and provenance rather than benefit shouting, and treat readers like discerning buyers, not impulse-shoppers. Wrote brand collection pages, product detail copy, and editorial-style category guides supporting a multi-brand retailer model where each brand has its own positioning to honor.",
+            "deliverables": [
+              "Editorial-style brand collection pages (Biologique Recherche, Lenox & Sixteenth, Paume, and others \u2014 all redacted)",
+              "PDP copy tuned to high-AOV beauty buyer psychology",
+              "Ritual and routine content connecting products across brands",
+              "Educational content on ingredients and formulation for SEO",
+              "Tone calibration per brand to preserve each label's individual voice"
+            ],
+            "resultsHeadline": "What the work produced",
+            "results": [
+              "Distinct voice across 10+ luxury skincare brands within one retailer",
+              "Editorial content built to support higher-consideration purchase paths",
+              "PDP rewrites aligned with multi-brand merchandising"
+            ],
+            "source": "Source URL redacted for client confidentiality",
+            "samplesNote": "Brand voice samples and PDP examples are in the private Drive folder."
+          }
+        ],
         "topline": [
           {
             "value": "$4.48M",
@@ -196,7 +272,12 @@
         ],
         "approach": "I led a full restructuring of the SEO program \u2014 rebuilding the keyword map around real search behavior, reworking core service pages to target high-intent commercial terms, and expanding supporting content clusters to strengthen topical authority across the site. The client depends almost entirely on organic traffic through articles following E-E-A-T guidelines, so every content decision was made against that bar.",
         "source": "Source: Ahrefs Organic Rankings (before/after snapshots)",
-        "samplesNote": "Performance dashboards and content samples available upon request (client identity redacted to protect confidentiality)."
+        "samplesNote": "Performance dashboards and content samples available upon request (client identity redacted to protect confidentiality).",
+        "images": [
+          {"src": "/projects/seo-medtourism-before.png", "caption": "Before — Ahrefs Organic Rankings. Client domain redacted. ~6.2K keywords, 16.1K monthly traffic, declining post-HCU."},
+          {"src": "/projects/seo-medtourism-after.png", "caption": "After — Ahrefs Organic Rankings. Client domain redacted. 11.5K keywords (+85%), 49.9K monthly traffic (+210%) following 24-month restructure."},
+          {"src": "/projects/seo-medtourism-keywords.png", "caption": "Top-ranking keywords across high-intent commercial dental terms — tooth chart, teeth numbers, cost of full mouth dental implants."}
+        ]
       },
       "roleSection": "seo"
     },
@@ -286,7 +367,11 @@
         ],
         "approach": "Built a centralized framework for core medical content (E-E-A-T-compliant, author-credentialed) with location-specific signals layered on top \u2014 real local testimonials, embedded GBP maps, location-specific photos. AI-search optimization treated as its own discipline: structured FAQ markup, chunk-optimized passages, llms.txt, and first-party expert quotes designed for LLM citation rather than blue-link ranking alone.",
         "source": "Source: Semrush SEO Dashboard (composite, last 90 days)",
-        "samplesNote": "GBP audit deck and location-page samples available upon request (client identity redacted)."
+        "samplesNote": "GBP audit deck and location-page samples available upon request (client identity redacted).",
+        "images": [
+          {"src": "/projects/seo-obgyn-services.png", "caption": "Service line landing cards — Obstetrics and Gynecology. Client name and clinic branding redacted."},
+          {"src": "/projects/seo-obgyn-dashboard.png", "caption": "Semrush SEO Dashboard — composite view across AI Visibility, organic traffic, position tracking, and site health. Client domain redacted."}
+        ]
       },
       "roleSection": "seo"
     },
