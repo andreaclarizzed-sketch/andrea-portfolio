@@ -33,6 +33,16 @@ const industries = ["Health & Wellness (DTC)", "Medical Tourism", "OBGYN / Multi
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
+
+/* Scroll-triggered fade-up animation */
+@media (prefers-reduced-motion:no-preference){
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.8,.2,1), transform .8s cubic-bezier(.2,.8,.2,1)}
+  .reveal.in-view{opacity:1;transform:translateY(0)}
+  .reveal.delay-1{transition-delay:.08s}
+  .reveal.delay-2{transition-delay:.16s}
+  .reveal.delay-3{transition-delay:.24s}
+  .reveal.delay-4{transition-delay:.32s}
+}
 body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:18px;line-height:1.7;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 
@@ -170,7 +180,7 @@ a{color:inherit;text-decoration:none}
 .exp-row .left .dates{font-size:17px;color:var(--muted);font-weight:400;margin-top:6px;display:flex;align-items:center;gap:6px;white-space:nowrap}
 .exp-row .left .dates::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent)}
 .exp-row .mid{font-size:16px;color:var(--muted);line-height:1.65}
-.exp-row .tags{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start}
+.exp-row .tags{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;align-self:center}
 .exp-row .tags span{font-size:12px;letter-spacing:.04em;padding:6px 11px;border:1px solid var(--line);border-radius:99px;color:var(--muted);background:var(--card);white-space:nowrap}
 @media (max-width:960px){.exp-row{grid-template-columns:48px 1fr;gap:14px}.exp-row .mid,.exp-row .tags{grid-column:1/-1;padding-left:62px}.exp-row .tags{justify-content:flex-start}}
 
@@ -347,16 +357,8 @@ footer.site .femail{color:#fff;font-weight:500}
     </div>
   </section>
 
-  <!-- HIGHLIGHTS STRIP (visual break after hero) -->
-  <section class="highlights">
-    <div class="hl-card"><div class="hl-n">$5<em>M+</em></div><div class="hl-l">in Tracked Sales Generated</div></div>
-    <div class="hl-card"><div class="hl-n">+250<em>%</em></div><div class="hl-l">Organic Growth (24 mo.)</div></div>
-    <div class="hl-card"><div class="hl-n">5<em> yrs</em></div><div class="hl-l">Direct Response + SEO</div></div>
-    <div class="hl-card"><div class="hl-n">9<em>+</em></div><div class="hl-l">Industries Written For</div></div>
-  </section>
-
   <!-- DIRECT RESPONSE COPYWRITING -->
-  <section class="rolecard" id="work">
+  <section class="rolecard reveal" id="work">
     <div class="rolecard-ghost">COPYWRITING</div>
     <div class="rolecard-label"><span class="slash">/</span>DIRECT RESPONSE COPYWRITING</div>
     <div class={copyProjects.length === 1 ? 'work-grid single' : 'work-grid'}>
@@ -417,10 +419,10 @@ footer.site .femail{color:#fff;font-weight:500}
   </section>
 
   <!-- PULL QUOTE (visual rest) -->
-  <section class="pullquote">
+  <section class="pullquote reveal">
     <div class="pq-mark">"</div>
-    <p>Most AI-generated SEO content doesn't rank because it has <em>no source.</em> The next era of SEO isn't producing more — it's producing things AI summarizers will actually cite.</p>
-    <div class="pq-attr">— My working hypothesis for 2026</div>
+    <p>Not every SEO strategist can write copy that <em>converts.</em> Not every copywriter understands what makes a page <em>rank.</em> I work at the intersection — building the strategy and writing the words.</p>
+    <div class="pq-attr">— How I think about the work</div>
   </section>
 
   <!-- EXPERIENCE -->
@@ -463,7 +465,7 @@ footer.site .femail{color:#fff;font-weight:500}
   </section>
 
   <!-- PROOF / DASHBOARDS IMAGE BLOCK -->
-  <section class="editorial-section">
+  <section class="editorial-section reveal">
     <div class="section-ghost" style="right:-30px">PROOF</div>
     <div class="editorial-head">
       <div class="eyebrow-dot">Proof</div>
@@ -494,7 +496,7 @@ footer.site .femail{color:#fff;font-weight:500}
   </section>
 
   <!-- SAMPLE WRITING PROJECTS (now at bottom, editorial) -->
-  <section class="editorial-section" id="samples">
+  <section class="editorial-section reveal" id="samples">
     <div class="section-ghost" style="right:-30px">SAMPLES</div>
     <div class="editorial-head">
       <div class="eyebrow-dot">Samples</div>
@@ -549,5 +551,22 @@ footer.site .femail{color:#fff;font-weight:500}
   <a class="femail" href={`mailto:${contact.email}`}>{contact.email}</a>
 </footer>
 
+<script>
+  (function(){
+    if (!('IntersectionObserver' in window)) {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+      return;
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  })();
+</script>
 </body>
 </html>
