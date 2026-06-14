@@ -1,19 +1,17 @@
 {
   "hero": {
     "available": "Available for New Projects",
-    "navWork": "Work",
+    "navWork": "Projects",
     "navServices": "Services",
     "navExperience": "Experience",
     "navContact": "Contact",
     "ctaButton": "Let's Talk",
-    "nameFirst": "ANDREA",
-    "nameLast": "DALAY",
-    "role": "SEO Copywriter",
-    "tagline": "Building AI-native content systems for local, multi-location, and eCommerce brands.",
+    "nameLine1": "ANDREA CLARIZZE",
+    "nameLine2": "DALAY",
+    "role": "Direct Response Copywriter & SEO Specialist",
+    "tagline": "Senior direct response copywriter, creative strategist, and SEO specialist with 5 years of experience and over $10M in sales generated to date. I write high-converting copy that turns cold traffic into loyal customers for health, wellness and DTC brands. As an SEO strategist, I build AI-native content systems for local, national, and multi-location brands — driving rankings, conversions, and scalable growth across service-area businesses and eCommerce catalogs.",
     "collaborateButton": "Let's collaborate",
     "linkedinUrl": "#",
-    "driveUrl": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu",
-    "githubUrl": "#",
     "email": "andreaclarizzed@gmail.com"
   },
   "stats": [
@@ -25,13 +23,43 @@
   "projects": [
     {
       "number": "01",
-      "category": "HEALTH ECOMMERCE",
-      "title": "SEO program from zero in a Meta-ad-restricted category.",
-      "description": "Mandala Studio supplements. Built topic clusters, schema, internal linking, and search-intent-mapped category copy in parallel with VSLs and advertorials powering the funnel.",
-      "tags": ["Direct Response", "Technical SEO", "Amazon"],
-      "metric": "$10M tracked sales · 22M+ views",
+      "slug": "01",
+      "category": "HEALTH AND WELLNESS",
+      "title": "DTC Health & Wellness Brand — Pain Relief / Compression Category",
+      "description": "Wrote ad copy, landing pages, and email sequences across top-performing channels. Paid Social drove $1.10M revenue at 47.69% session conversion rate; Direct landing pages drove $2.32M at 29.3% conversion.",
+      "tags": ["Direct Response", "Landing Pages", "Email", "Paid Social"],
+      "metric": "$4.48M revenue · 2M+ sessions · 66% engagement · 34% CVR",
       "label": "Case Study",
-      "link": "https://drive.google.com/drive/u/0/folders/1x9isuoGYBUYKa1G7nCk2KfZbfhCccwdD"
+      "link": "/projects/01",
+      "detail": {
+        "client": "DTC Health & Wellness Brand (Pain Relief / Compression)",
+        "role": "Direct Response Copywriter & SEO Strategist",
+        "dateRange": "[date range]",
+        "overview": "Owned conversion copy across the brand's full acquisition funnel — ad creative, landing pages, and email sequences — for a US-based DTC pain relief and compression product line. Worked across paid social, paid search, email, and direct landing-page traffic, producing copy that scaled past industry-average conversion benchmarks in a highly competitive YMYL category.",
+        "topline": [
+          {"value": "$4.48M", "label": "Total Revenue"},
+          {"value": "2M+", "label": "Sessions"},
+          {"value": "66%", "label": "Engagement Rate"},
+          {"value": "34%", "label": "Session CVR"}
+        ],
+        "channels": [
+          {"channel": "Paid Social", "revenue": "$1.10M", "cvr": "47.69% session CVR", "share": "24.66%"},
+          {"channel": "Direct (Landing Pages)", "revenue": "$2.32M", "cvr": "29.3% CVR", "share": "51.85%"},
+          {"channel": "Organic Social", "revenue": "$399K", "cvr": "—", "share": "8.92%"},
+          {"channel": "Email", "revenue": "$147K", "cvr": "—", "share": "3.30%"},
+          {"channel": "Referral", "revenue": "$184K", "cvr": "—", "share": "4.11%"}
+        ],
+        "deliverables": [
+          "Direct-response ad copy across Meta and TikTok",
+          "Long-form sales pages and pre-sale advertorials",
+          "Email lifecycle: welcome, browse-abandon, cart-abandon, post-purchase, win-back",
+          "Funnel-stage messaging architecture mapped to awareness levels (Schwartz)",
+          "Conversion-focused PDP and landing page rewrites"
+        ],
+        "approach": "Built copy systems against documented customer voice (review mining + chat log analysis). Stress-tested messaging across awareness levels — problem-aware to solution-aware to product-aware — and structured pages around the most commercially-loaded query intent. Worked in tight feedback loops with paid media and design to optimize hooks weekly based on GA4 conversion data.",
+        "source": "Source: GA4",
+        "samplesNote": "Copywriting samples available upon request (redacted to protect client confidentiality)."
+      }
     },
     {
       "number": "02",

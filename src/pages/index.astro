@@ -38,11 +38,13 @@ nav.top{display:flex;align-items:center;justify-content:space-between;font-size:
 .label .slash{color:var(--accent)}
 .hero{padding-bottom:0;display:flex;flex-direction:column;position:relative}
 .hero-stage{position:relative;margin-top:40px;display:flex;flex-direction:column;align-items:center}
-.hero-name{position:relative;z-index:3;font-size:clamp(60px,12.5vw,200px);font-weight:700;line-height:.88;letter-spacing:-.05em;text-align:center;pointer-events:none;white-space:nowrap;width:100%}
-.hero-portrait{position:relative;z-index:2;margin-top:-4vw;width:min(58%,560px);aspect-ratio:1/1.05;background-image:url('/photo.png');background-size:contain;background-repeat:no-repeat;background-position:center top;filter:contrast(1.03) saturate(1.05)}
+.hero-name{position:relative;z-index:3;font-size:clamp(48px,9vw,140px);font-weight:700;line-height:.92;letter-spacing:-.04em;text-align:center;pointer-events:none;width:100%}
+.hero-name .l2{display:block;margin-top:-.08em}
+.hero-portrait{position:relative;z-index:2;margin-top:24px;width:min(48%,440px);aspect-ratio:1/1.05;background-image:url('/photo.png');background-size:contain;background-repeat:no-repeat;background-position:center top;filter:contrast(1.03) saturate(1.05)}
 .hero-name .outline{color:transparent;-webkit-text-stroke:1.5px var(--ink)}
 .hero-name .fill{color:var(--ink)}
-.hero-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;position:relative;z-index:4;margin-top:-220px}
+.hero-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;position:relative;z-index:4;margin-top:40px}
+.hero-tagline{max-width:560px}
 .hero-tagline{max-width:340px;font-size:14px;color:var(--muted);line-height:1.6}
 .hero-tagline .role{font-size:22px;color:var(--ink);font-weight:600;margin-bottom:10px;letter-spacing:-.01em}
 .hero-tagline .cta{margin-top:18px;display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--card);padding:12px 22px;border-radius:99px;font-size:13px;font-weight:500;transition:transform .2s}
@@ -124,7 +126,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:32px 24px 48p
     </nav>
     <div class="hero-stage">
       <div class="hero-name">
-        <span class="outline">{hero.nameFirst}</span> <span class="fill">{hero.nameLast}</span>
+        <span class="outline">{hero.nameLine1}</span><span class="fill l2">{hero.nameLine2}</span>
       </div>
       <div class="hero-portrait" aria-label="Andrea Clarizze Dalay"></div>
     </div>
@@ -136,21 +138,14 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:32px 24px 48p
       </div>
       <div class="hero-socials">
         <a href={hero.linkedinUrl} target="_blank" rel="noopener"><span class="ico">in</span> LinkedIn</a>
-        <a href={hero.driveUrl} target="_blank" rel="noopener"><span class="ico">◐</span> Drive</a>
-        <a href={hero.githubUrl} target="_blank" rel="noopener"><span class="ico">{`{ }`}</span> GitHub</a>
         <a href={`mailto:${hero.email}`}><span class="ico">@</span> Email</a>
       </div>
-    </div>
-    <div class="results">
-      {stats.map(s => (
-        <div><div class="n"><Fragment set:html={s.value.replace(/^(\$?\d+\.?\d*)(.+)$/, '$1<em>$2</em>')} /></div><div class="lbl">{s.label}</div></div>
-      ))}
     </div>
   </div>
 
   <div class="card" id="work">
     <div class="ghost" style="top:30px;right:-20px">PORTFOLIO</div>
-    <div class="label"><span class="slash">/</span>SELECTED WORK</div>
+    <div class="label"><span class="slash">/</span>PROJECTS</div>
     <div class="work-grid">
       {projects.map(p => (
         <div class="work-item">
