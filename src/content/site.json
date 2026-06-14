@@ -9,45 +9,100 @@
     "nameLine1": "ANDREA CLARIZZE",
     "nameLine2": "DALAY",
     "role": "Direct Response Copywriter & SEO Specialist",
-    "tagline": "Senior direct response copywriter, creative strategist, and SEO specialist with 5 years of experience and over $10M in sales generated to date. I write high-converting copy that turns cold traffic into loyal customers for health, wellness and DTC brands. As an SEO strategist, I build AI-native content systems for local, national, and multi-location brands — driving rankings, conversions, and scalable growth across service-area businesses and eCommerce catalogs.",
+    "tagline": "Senior direct response copywriter, creative strategist, and SEO specialist with 5 years of experience and over $10M in sales generated to date. I write high-converting copy that turns cold traffic into loyal customers for health, wellness and DTC brands. As an SEO strategist, I build AI-native content systems for local, national, and multi-location brands \u2014 driving rankings, conversions, and scalable growth across service-area businesses and eCommerce catalogs.",
     "collaborateButton": "Let's collaborate",
     "linkedinUrl": "#",
     "email": "andreaclarizzed@gmail.com"
   },
   "stats": [
-    {"value": "$10M", "label": "Tracked Sales"},
-    {"value": "22M+", "label": "Video Views"},
-    {"value": "3 yrs", "label": "Writer → Manager"},
-    {"value": "6 yrs", "label": "YMYL Experience"}
+    {
+      "value": "$10M",
+      "label": "Tracked Sales"
+    },
+    {
+      "value": "22M+",
+      "label": "Video Views"
+    },
+    {
+      "value": "3 yrs",
+      "label": "Writer \u2192 Manager"
+    },
+    {
+      "value": "6 yrs",
+      "label": "YMYL Experience"
+    }
   ],
   "projects": [
     {
       "number": "01",
       "slug": "01",
+      "roleSection": "copy",
       "category": "HEALTH AND WELLNESS",
-      "title": "DTC Health & Wellness Brand — Pain Relief / Compression Category",
+      "title": "DTC Health & Wellness Brand \u2014 Pain Relief / Compression Category",
       "description": "Wrote ad copy, landing pages, and email sequences across top-performing channels. Paid Social drove $1.10M revenue at 47.69% session conversion rate; Direct landing pages drove $2.32M at 29.3% conversion.",
-      "tags": ["Direct Response", "Landing Pages", "Email", "Paid Social"],
-      "metric": "$4.48M revenue · 2M+ sessions · 66% engagement · 34% CVR",
+      "tags": [
+        "Direct Response",
+        "Landing Pages",
+        "Email",
+        "Paid Social"
+      ],
+      "metric": "$4.48M revenue \u00b7 2M+ sessions \u00b7 66% engagement \u00b7 34% CVR",
       "label": "Case Study",
       "link": "/projects/01",
       "detail": {
         "client": "DTC Health & Wellness Brand (Pain Relief / Compression)",
         "role": "Direct Response Copywriter & SEO Strategist",
         "dateRange": "[date range]",
-        "overview": "Owned conversion copy across the brand's full acquisition funnel — ad creative, landing pages, and email sequences — for a US-based DTC pain relief and compression product line. Worked across paid social, paid search, email, and direct landing-page traffic, producing copy that scaled past industry-average conversion benchmarks in a highly competitive YMYL category.",
+        "overview": "Owned conversion copy across the brand's full acquisition funnel \u2014 ad creative, landing pages, and email sequences \u2014 for a US-based DTC pain relief and compression product line. Worked across paid social, paid search, email, and direct landing-page traffic, producing copy that scaled past industry-average conversion benchmarks in a highly competitive YMYL category.",
         "topline": [
-          {"value": "$4.48M", "label": "Total Revenue"},
-          {"value": "2M+", "label": "Sessions"},
-          {"value": "66%", "label": "Engagement Rate"},
-          {"value": "34%", "label": "Session CVR"}
+          {
+            "value": "$4.48M",
+            "label": "Total Revenue"
+          },
+          {
+            "value": "2M+",
+            "label": "Sessions"
+          },
+          {
+            "value": "66%",
+            "label": "Engagement Rate"
+          },
+          {
+            "value": "34%",
+            "label": "Session CVR"
+          }
         ],
         "channels": [
-          {"channel": "Paid Social", "revenue": "$1.10M", "cvr": "47.69% session CVR", "share": "24.66%"},
-          {"channel": "Direct (Landing Pages)", "revenue": "$2.32M", "cvr": "29.3% CVR", "share": "51.85%"},
-          {"channel": "Organic Social", "revenue": "$399K", "cvr": "—", "share": "8.92%"},
-          {"channel": "Email", "revenue": "$147K", "cvr": "—", "share": "3.30%"},
-          {"channel": "Referral", "revenue": "$184K", "cvr": "—", "share": "4.11%"}
+          {
+            "channel": "Paid Social",
+            "revenue": "$1.10M",
+            "cvr": "47.69% session CVR",
+            "share": "24.66%"
+          },
+          {
+            "channel": "Direct (Landing Pages)",
+            "revenue": "$2.32M",
+            "cvr": "29.3% CVR",
+            "share": "51.85%"
+          },
+          {
+            "channel": "Organic Social",
+            "revenue": "$399K",
+            "cvr": "\u2014",
+            "share": "8.92%"
+          },
+          {
+            "channel": "Email",
+            "revenue": "$147K",
+            "cvr": "\u2014",
+            "share": "3.30%"
+          },
+          {
+            "channel": "Referral",
+            "revenue": "$184K",
+            "cvr": "\u2014",
+            "share": "4.11%"
+          }
         ],
         "deliverables": [
           "Direct-response ad copy across Meta and TikTok",
@@ -56,7 +111,7 @@
           "Funnel-stage messaging architecture mapped to awareness levels (Schwartz)",
           "Conversion-focused PDP and landing page rewrites"
         ],
-        "approach": "Built copy systems against documented customer voice (review mining + chat log analysis). Stress-tested messaging across awareness levels — problem-aware to solution-aware to product-aware — and structured pages around the most commercially-loaded query intent. Worked in tight feedback loops with paid media and design to optimize hooks weekly based on GA4 conversion data.",
+        "approach": "Built copy systems against documented customer voice (review mining + chat log analysis). Stress-tested messaging across awareness levels \u2014 problem-aware to solution-aware to product-aware \u2014 and structured pages around the most commercially-loaded query intent. Worked in tight feedback loops with paid media and design to optimize hooks weekly based on GA4 conversion data.",
         "source": "Source: GA4",
         "samplesNote": "Copywriting samples available upon request (redacted to protect client confidentiality)."
       }
@@ -65,29 +120,71 @@
       "number": "02",
       "slug": "02",
       "category": "ORGANIC GROWTH",
-      "title": "Client Ranking Achievement — Medical Tourism",
+      "title": "Client Ranking Achievement \u2014 Medical Tourism",
       "description": "Took over a stalled SEO program post-Helpful Content Update. Restructured keyword map, rebuilt commercial service pages, expanded topical clusters. Organic traffic scaled from ~11K to 50K+ monthly visits in 24 months.",
-      "tags": ["Organic Growth", "YMYL", "Topical Authority", "Content Strategy"],
-      "metric": "+250% organic growth · 11K → 50K monthly visits",
+      "tags": [
+        "Organic Growth",
+        "YMYL",
+        "Topical Authority",
+        "Content Strategy"
+      ],
+      "metric": "+250% organic growth \u00b7 11K \u2192 50K monthly visits",
       "label": "Case Study",
       "link": "/projects/02",
       "detail": {
         "client": "Medical Tourism Client (US-based, client name redacted)",
         "role": "SEO Lead",
         "dateRange": "24-month engagement",
-        "overview": "Client is a US-based medical tourism company connecting patients with vetted dental providers overseas. When I took over the SEO direction, the site had plateaued at ~11,000 monthly organic visits and was beginning to decline following the Google Helpful Content Update — despite a consistent publishing cadence and an existing SEO strategy in place.",
+        "overview": "Client is a US-based medical tourism company connecting patients with vetted dental providers overseas. When I took over the SEO direction, the site had plateaued at ~11,000 monthly organic visits and was beginning to decline following the Google Helpful Content Update \u2014 despite a consistent publishing cadence and an existing SEO strategy in place.",
         "topline": [
-          {"value": "+250%", "label": "Organic Growth"},
-          {"value": "50K+", "label": "Monthly Visits"},
-          {"value": "11.5K", "label": "Ranking Keywords"},
-          {"value": "$82.9K", "label": "Traffic Cost Equiv."}
+          {
+            "value": "+250%",
+            "label": "Organic Growth"
+          },
+          {
+            "value": "50K+",
+            "label": "Monthly Visits"
+          },
+          {
+            "value": "11.5K",
+            "label": "Ranking Keywords"
+          },
+          {
+            "value": "$82.9K",
+            "label": "Traffic Cost Equiv."
+          }
         ],
         "channels": [
-          {"channel": "Before — Keywords", "revenue": "6.2K", "cvr": "—", "share": "Pre-engagement baseline"},
-          {"channel": "Before — Monthly Traffic", "revenue": "16.1K", "cvr": "—", "share": "Declining post-HCU"},
-          {"channel": "After — Keywords", "revenue": "11.5K", "cvr": "+85%", "share": "24 months in"},
-          {"channel": "After — Monthly Traffic", "revenue": "49.9K", "cvr": "+210%", "share": "Sustained growth"},
-          {"channel": "Top-ranking commercial terms", "revenue": "Page 1", "cvr": "—", "share": "tooth chart · teeth numbers · dental implants cost"}
+          {
+            "channel": "Before \u2014 Keywords",
+            "revenue": "6.2K",
+            "cvr": "\u2014",
+            "share": "Pre-engagement baseline"
+          },
+          {
+            "channel": "Before \u2014 Monthly Traffic",
+            "revenue": "16.1K",
+            "cvr": "\u2014",
+            "share": "Declining post-HCU"
+          },
+          {
+            "channel": "After \u2014 Keywords",
+            "revenue": "11.5K",
+            "cvr": "+85%",
+            "share": "24 months in"
+          },
+          {
+            "channel": "After \u2014 Monthly Traffic",
+            "revenue": "49.9K",
+            "cvr": "+210%",
+            "share": "Sustained growth"
+          },
+          {
+            "channel": "Top-ranking commercial terms",
+            "revenue": "Page 1",
+            "cvr": "\u2014",
+            "share": "tooth chart \u00b7 teeth numbers \u00b7 dental implants cost"
+          }
         ],
         "deliverables": [
           "Root-cause analysis using GSC data to diagnose post-HCU decline",
@@ -97,39 +194,87 @@
           "Content quality framework aligned to E-E-A-T guidelines",
           "Ongoing optimization for highly-competitive YMYL keywords"
         ],
-        "approach": "I led a full restructuring of the SEO program — rebuilding the keyword map around real search behavior, reworking core service pages to target high-intent commercial terms, and expanding supporting content clusters to strengthen topical authority across the site. The client depends almost entirely on organic traffic through articles following E-E-A-T guidelines, so every content decision was made against that bar.",
+        "approach": "I led a full restructuring of the SEO program \u2014 rebuilding the keyword map around real search behavior, reworking core service pages to target high-intent commercial terms, and expanding supporting content clusters to strengthen topical authority across the site. The client depends almost entirely on organic traffic through articles following E-E-A-T guidelines, so every content decision was made against that bar.",
         "source": "Source: Ahrefs Organic Rankings (before/after snapshots)",
         "samplesNote": "Performance dashboards and content samples available upon request (client identity redacted to protect confidentiality)."
-      }
+      },
+      "roleSection": "seo"
     },
     {
       "number": "03",
       "slug": "03",
       "category": "MULTI-LOCATION / LOCAL SEO",
-      "title": "Atlanta OBGYN Clinic — GBP & Multi-Location",
-      "description": "Local SEO and multi-location strategy for a US OBGYN practice. Authority Score 34, 16.3K organic traffic, 12.8K ranking keywords, 255 referring domains, 44.93% visibility — with AI-search citations across ChatGPT, Google AI Overview, and Gemini.",
-      "tags": ["Local SEO", "GBP", "Multi-Location", "AI Search Visibility"],
-      "metric": "44.93% visibility · 162 AI mentions · 150 cited pages",
+      "title": "Atlanta OBGYN Clinic \u2014 GBP & Multi-Location",
+      "description": "Local SEO and multi-location strategy for a US OBGYN practice. Authority Score 34, 16.3K organic traffic, 12.8K ranking keywords, 255 referring domains, 44.93% visibility \u2014 with AI-search citations across ChatGPT, Google AI Overview, and Gemini.",
+      "tags": [
+        "Local SEO",
+        "GBP",
+        "Multi-Location",
+        "AI Search Visibility"
+      ],
+      "metric": "44.93% visibility \u00b7 162 AI mentions \u00b7 150 cited pages",
       "label": "Case Study",
       "link": "/projects/03",
       "detail": {
         "client": "US OBGYN Clinic (Atlanta-based, client name redacted)",
         "role": "Local & Multi-Location SEO Strategist",
         "dateRange": "Ongoing engagement",
-        "overview": "An Atlanta-based OBGYN practice operating across multiple clinic locations. The brand needed full-stack local SEO covering Google Business Profile optimization, multi-location schema, citation consistency, and AI-search visibility — without cannibalization between location pages competing for the same metro queries.",
+        "overview": "An Atlanta-based OBGYN practice operating across multiple clinic locations. The brand needed full-stack local SEO covering Google Business Profile optimization, multi-location schema, citation consistency, and AI-search visibility \u2014 without cannibalization between location pages competing for the same metro queries.",
         "topline": [
-          {"value": "44.93%", "label": "Visibility"},
-          {"value": "16.3K", "label": "Organic Traffic"},
-          {"value": "12.8K", "label": "Organic Keywords"},
-          {"value": "255", "label": "Referring Domains"}
+          {
+            "value": "44.93%",
+            "label": "Visibility"
+          },
+          {
+            "value": "16.3K",
+            "label": "Organic Traffic"
+          },
+          {
+            "value": "12.8K",
+            "label": "Organic Keywords"
+          },
+          {
+            "value": "255",
+            "label": "Referring Domains"
+          }
         ],
         "channels": [
-          {"channel": "AI Visibility (composite)", "revenue": "26", "cvr": "—", "share": "Score across LLM surfaces"},
-          {"channel": "ChatGPT mentions", "revenue": "1", "cvr": "—", "share": "Cited pages: 33"},
-          {"channel": "Google AI Overview", "revenue": "149", "cvr": "—", "share": "Cited pages: 130"},
-          {"channel": "AI Mode", "revenue": "6", "cvr": "—", "share": "Cited pages: 37"},
-          {"channel": "Gemini", "revenue": "6", "cvr": "—", "share": "Cited pages: 17"},
-          {"channel": "Top 10 ranking keywords", "revenue": "104", "cvr": "—", "share": "Competitive OBGYN terms"}
+          {
+            "channel": "AI Visibility (composite)",
+            "revenue": "26",
+            "cvr": "\u2014",
+            "share": "Score across LLM surfaces"
+          },
+          {
+            "channel": "ChatGPT mentions",
+            "revenue": "1",
+            "cvr": "\u2014",
+            "share": "Cited pages: 33"
+          },
+          {
+            "channel": "Google AI Overview",
+            "revenue": "149",
+            "cvr": "\u2014",
+            "share": "Cited pages: 130"
+          },
+          {
+            "channel": "AI Mode",
+            "revenue": "6",
+            "cvr": "\u2014",
+            "share": "Cited pages: 37"
+          },
+          {
+            "channel": "Gemini",
+            "revenue": "6",
+            "cvr": "\u2014",
+            "share": "Cited pages: 17"
+          },
+          {
+            "channel": "Top 10 ranking keywords",
+            "revenue": "104",
+            "cvr": "\u2014",
+            "share": "Competitive OBGYN terms"
+          }
         ],
         "deliverables": [
           "Google Business Profile optimization across all clinic locations",
@@ -139,80 +284,258 @@
           "AI-search optimization for ChatGPT, Google AI Overview, AI Mode, Gemini",
           "Review velocity and Q&A optimization tied to each location"
         ],
-        "approach": "Built a centralized framework for core medical content (E-E-A-T-compliant, author-credentialed) with location-specific signals layered on top — real local testimonials, embedded GBP maps, location-specific photos. AI-search optimization treated as its own discipline: structured FAQ markup, chunk-optimized passages, llms.txt, and first-party expert quotes designed for LLM citation rather than blue-link ranking alone.",
+        "approach": "Built a centralized framework for core medical content (E-E-A-T-compliant, author-credentialed) with location-specific signals layered on top \u2014 real local testimonials, embedded GBP maps, location-specific photos. AI-search optimization treated as its own discipline: structured FAQ markup, chunk-optimized passages, llms.txt, and first-party expert quotes designed for LLM citation rather than blue-link ranking alone.",
         "source": "Source: Semrush SEO Dashboard (composite, last 90 days)",
         "samplesNote": "GBP audit deck and location-page samples available upon request (client identity redacted)."
-      }
+      },
+      "roleSection": "seo"
     },
     {
       "number": "04",
       "category": "ECOMMERCE SEO",
       "title": "Category and product page systems that rank and convert.",
-      "description": "Technical architecture (faceted nav, Product/Review schema, PLP → PDP linking) stacked with conversion copy (benefit-led PDPs, A+ Content using A9 ranking factors).",
-      "tags": ["eCommerce", "Amazon A+", "CRO Copy"],
+      "description": "Technical architecture (faceted nav, Product/Review schema, PLP \u2192 PDP linking) stacked with conversion copy (benefit-led PDPs, A+ Content using A9 ranking factors).",
+      "tags": [
+        "eCommerce",
+        "Amazon A+",
+        "CRO Copy"
+      ],
       "metric": "$10M contribution at Mandala",
       "label": "Case Study",
-      "link": "https://drive.google.com/drive/u/0/folders/192ayfr5pXowT_ZUs0VRZGMEnPS8-HzMY"
+      "link": "https://drive.google.com/drive/u/0/folders/192ayfr5pXowT_ZUs0VRZGMEnPS8-HzMY",
+      "roleSection": "seo"
     },
     {
       "number": "05",
       "category": "GEO / AI-SEARCH",
       "title": "Writing content AI summarizers actually cite.",
       "description": "Chunk-optimized passages, first-party data, expert quotes, structured FAQ for LLM ingestion. llms.txt, entity reinforcement, AI Overviews source tracking.",
-      "tags": ["GEO", "AEO", "LLM Citation"],
+      "tags": [
+        "GEO",
+        "AEO",
+        "LLM Citation"
+      ],
       "metric": "Cited in AI Overviews + Perplexity",
       "label": "Methodology",
-      "link": "https://drive.google.com/drive/u/0/folders/1mBYeAlYEdzAkr_OGZ-6od7N5ziN08XXC"
+      "link": "https://drive.google.com/drive/u/0/folders/1mBYeAlYEdzAkr_OGZ-6od7N5ziN08XXC",
+      "roleSection": "seo"
     },
     {
       "number": "06",
       "category": "AI TOOLING",
       "title": "Building the SEO research tools instead of just using them.",
       "description": "Custom Semrush MCP server (Python / FastMCP) exposing 12 APIs to Claude as agent tools. Multi-step research runs as workflows instead of dashboard clicks.",
-      "tags": ["Python", "FastMCP", "Claude"],
-      "metric": "Open source · GitHub",
+      "tags": [
+        "Python",
+        "FastMCP",
+        "Claude"
+      ],
+      "metric": "Open source \u00b7 GitHub",
       "label": "Project",
-      "link": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu"
+      "link": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu",
+      "roleSection": "seo"
     }
   ],
   "services": [
-    {"title": "SEO Strategy & Audits", "subtitle": "Technical, on-page, local, eCommerce"},
-    {"title": "Direct-Response Copywriting", "subtitle": "VSLs, advertorials, landing pages, ads"},
-    {"title": "Multi-Location & Local SEO", "subtitle": "GBP, schema, city pages, citations"},
-    {"title": "GEO / AI-Search Optimization", "subtitle": "LLM citation engineering, llms.txt"},
-    {"title": "AI Workflow Engineering", "subtitle": "Custom MCP servers, agent pipelines"}
+    {
+      "title": "SEO Strategy & Audits",
+      "subtitle": "Technical, on-page, local, eCommerce"
+    },
+    {
+      "title": "Direct-Response Copywriting",
+      "subtitle": "VSLs, advertorials, landing pages, ads"
+    },
+    {
+      "title": "Multi-Location & Local SEO",
+      "subtitle": "GBP, schema, city pages, citations"
+    },
+    {
+      "title": "GEO / AI-Search Optimization",
+      "subtitle": "LLM citation engineering, llms.txt"
+    },
+    {
+      "title": "AI Workflow Engineering",
+      "subtitle": "Custom MCP servers, agent pipelines"
+    }
   ],
   "experience": [
-    {"company": "Mandala Studio LLC", "role": "Lead Copywriter", "date": "2022 — 2025"},
-    {"company": "The Ad Firm", "role": "SEO Assistant Manager", "date": "2021 — 2024"},
-    {"company": "The Ad Firm", "role": "Content Manager", "date": "2020 — 2021"},
-    {"company": "The Ad Firm", "role": "Content Writer", "date": "2019 — 2020"},
-    {"company": "Freelance Projects", "role": "SEO & Copywriting Consultant", "date": "2020 — Present"}
+    {
+      "company": "Mandala Studio LLC",
+      "role": "Lead Copywriter",
+      "date": "2022 \u2014 2025",
+      "summary": "Wrote VSLs, advertorials, ad copy, Amazon A+ Content, and funnel-driving direct-response assets for a DTC supplement brand operating in a Meta-ad-restricted health category. Contributed to $10M+ in tracked sales and 22M+ video views.",
+      "tags": [
+        "Copywriting",
+        "VSL",
+        "DTC",
+        "Amazon"
+      ]
+    },
+    {
+      "company": "The Ad Firm",
+      "role": "SEO Assistant Manager",
+      "date": "2023 \u2014 2024",
+      "summary": "Led full-funnel SEO programs for US clients across healthcare, finance, SaaS, home services, and legal. Owned keyword strategy, technical SEO, GEO/AEO workflows, content decay audits, and direct stakeholder reporting via Looker Studio.",
+      "tags": [
+        "SEO",
+        "YMYL",
+        "Strategy",
+        "GEO"
+      ]
+    },
+    {
+      "company": "The Ad Firm",
+      "role": "Content Manager",
+      "date": "2022 \u2014 2023",
+      "summary": "Managed editorial pipelines across multiple US client accounts. Reviewed writer outputs for E-E-A-T compliance, brand voice, and FTC/YMYL accuracy before delivery.",
+      "tags": [
+        "Editorial",
+        "Management",
+        "E-E-A-T"
+      ]
+    },
+    {
+      "company": "The Ad Firm",
+      "role": "Content Writer",
+      "date": "2021 \u2014 2022",
+      "summary": "Wrote SEO-optimized long-form articles, service pages, and category copy for US agency clients across YMYL verticals.",
+      "tags": [
+        "Writing",
+        "SEO Content"
+      ]
+    },
+    {
+      "company": "Freelance Projects",
+      "role": "SEO & Copywriting Consultant",
+      "date": "2020 \u2014 Present",
+      "summary": "Independent SEO and copywriting engagements for medical tourism, OBGYN, B2B SaaS, and automotive aftermarket brands. Includes the Medical Tourism and OBGYN case studies above.",
+      "tags": [
+        "Freelance",
+        "SEO",
+        "Copy"
+      ]
+    }
   ],
   "process": {
-    "title": "From keyword to conversion — the 6-step system",
+    "title": "From keyword to conversion \u2014 the 6-step system",
     "steps": [
-      {"number": "01 — RESEARCH", "title": "Discovery", "description": "VoC interviews, review mining (Amazon, Reddit, G2), competitor teardowns. Semrush MCP runs SERP + gap analysis in parallel."},
-      {"number": "02 — INTENT MAP", "title": "Cluster", "description": "Keywords clustered by search intent — informational, commercial, transactional, navigational. Volume is secondary."},
-      {"number": "03 — BRIEF", "title": "Outline", "description": "SERP-aligned: PAA coverage, entity checklist, competitor gaps, internal linking targets, schema spec, conversion goal."},
-      {"number": "04 — DRAFT", "title": "Write", "description": "Schwartz awareness/sophistication hook, then Hook-Story-Offer or PAS body. First-party proof stacked throughout."},
-      {"number": "05 — OPTIMIZE", "title": "Ship", "description": "Structured data, internal linking equity, chunk-optimized passages for LLM citation, llms.txt where relevant."},
-      {"number": "06 — DECAY WATCH", "title": "Maintain", "description": "Monthly GSC query analysis, quarterly cannibalization audits, refresh cycles triggered by Core Updates and HCU rollouts."}
+      {
+        "number": "01 \u2014 RESEARCH",
+        "title": "Discovery",
+        "description": "VoC interviews, review mining (Amazon, Reddit, G2), competitor teardowns. Semrush MCP runs SERP + gap analysis in parallel."
+      },
+      {
+        "number": "02 \u2014 INTENT MAP",
+        "title": "Cluster",
+        "description": "Keywords clustered by search intent \u2014 informational, commercial, transactional, navigational. Volume is secondary."
+      },
+      {
+        "number": "03 \u2014 BRIEF",
+        "title": "Outline",
+        "description": "SERP-aligned: PAA coverage, entity checklist, competitor gaps, internal linking targets, schema spec, conversion goal."
+      },
+      {
+        "number": "04 \u2014 DRAFT",
+        "title": "Write",
+        "description": "Schwartz awareness/sophistication hook, then Hook-Story-Offer or PAS body. First-party proof stacked throughout."
+      },
+      {
+        "number": "05 \u2014 OPTIMIZE",
+        "title": "Ship",
+        "description": "Structured data, internal linking equity, chunk-optimized passages for LLM citation, llms.txt where relevant."
+      },
+      {
+        "number": "06 \u2014 DECAY WATCH",
+        "title": "Maintain",
+        "description": "Monthly GSC query analysis, quarterly cannibalization audits, refresh cycles triggered by Core Updates and HCU rollouts."
+      }
     ]
   },
   "samples": [
-    {"title": "Direct Response & Writing", "items": ["Supplement VSL · long-form", "Advertorial · health eCommerce", "Amazon A+ · supplement PDP"], "link": "https://drive.google.com/drive/u/0/folders/1x9isuoGYBUYKa1G7nCk2KfZbfhCccwdD"},
-    {"title": "Local SEO", "items": ["GBP optimization audits", "Local schema samples", "Service-area work"], "link": "https://drive.google.com/drive/u/0/folders/1xsgaYNYmlXjhQQwxFfLx2meKBNFXGprW"},
-    {"title": "Multi-Location SEO", "items": ["Rollout playbook", "City page system", "Cannibalization audits"], "link": "https://drive.google.com/drive/u/0/folders/10mCsfUD1BRXyxAquVpJ_MLqmcPz4Yzm4"},
-    {"title": "eCommerce SEO", "items": ["Category page rewrites", "PDP benefit-led copy", "Amazon listing portfolio"], "link": "https://drive.google.com/drive/u/0/folders/192ayfr5pXowT_ZUs0VRZGMEnPS8-HzMY"},
-    {"title": "GEO / AI-Search", "items": ["GEO citation strategy", "llms.txt implementations", "LLM citation engineering"], "link": "https://drive.google.com/drive/u/0/folders/1mBYeAlYEdzAkr_OGZ-6od7N5ziN08XXC"},
-    {"title": "Semrush MCP & Notes", "items": ["MCP workflow walkthrough", "Agent research examples", "Build notes & GitHub"], "link": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu"}
+    {
+      "title": "Direct Response & Writing",
+      "items": [
+        "Supplement VSL \u00b7 long-form",
+        "Advertorial \u00b7 health eCommerce",
+        "Amazon A+ \u00b7 supplement PDP"
+      ],
+      "link": "https://drive.google.com/drive/u/0/folders/1x9isuoGYBUYKa1G7nCk2KfZbfhCccwdD"
+    },
+    {
+      "title": "Local SEO",
+      "items": [
+        "GBP optimization audits",
+        "Local schema samples",
+        "Service-area work"
+      ],
+      "link": "https://drive.google.com/drive/u/0/folders/1xsgaYNYmlXjhQQwxFfLx2meKBNFXGprW"
+    },
+    {
+      "title": "Multi-Location SEO",
+      "items": [
+        "Rollout playbook",
+        "City page system",
+        "Cannibalization audits"
+      ],
+      "link": "https://drive.google.com/drive/u/0/folders/10mCsfUD1BRXyxAquVpJ_MLqmcPz4Yzm4"
+    },
+    {
+      "title": "eCommerce SEO",
+      "items": [
+        "Category page rewrites",
+        "PDP benefit-led copy",
+        "Amazon listing portfolio"
+      ],
+      "link": "https://drive.google.com/drive/u/0/folders/192ayfr5pXowT_ZUs0VRZGMEnPS8-HzMY"
+    },
+    {
+      "title": "GEO / AI-Search",
+      "items": [
+        "GEO citation strategy",
+        "llms.txt implementations",
+        "LLM citation engineering"
+      ],
+      "link": "https://drive.google.com/drive/u/0/folders/1mBYeAlYEdzAkr_OGZ-6od7N5ziN08XXC"
+    },
+    {
+      "title": "Semrush MCP & Notes",
+      "items": [
+        "MCP workflow walkthrough",
+        "Agent research examples",
+        "Build notes & GitHub"
+      ],
+      "link": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu"
+    }
   ],
   "tools": {
-    "technical": ["Screaming Frog", "Ahrefs Site Audit", "PageSpeed Insights", "Schema.org", "GSC Core Web Vitals"],
-    "keyword": ["Semrush", "Ahrefs", "SurferSEO", "Topic clusters", "SERP / intent analysis"],
-    "analytics": ["GA4", "Google Search Console", "Looker Studio", "Google Tag Manager", "BrightLocal"],
-    "ai": ["Claude + custom MCP", "ChatGPT · Perplexity", "Google AI Overviews", "llms.txt", "Python / FastMCP"]
+    "technical": [
+      "Screaming Frog",
+      "Ahrefs Site Audit",
+      "PageSpeed Insights",
+      "Schema.org",
+      "GSC Core Web Vitals"
+    ],
+    "keyword": [
+      "Semrush",
+      "Ahrefs",
+      "SurferSEO",
+      "Topic clusters",
+      "SERP / intent analysis"
+    ],
+    "analytics": [
+      "GA4",
+      "Google Search Console",
+      "Looker Studio",
+      "Google Tag Manager",
+      "BrightLocal"
+    ],
+    "ai": [
+      "Claude + custom MCP",
+      "ChatGPT \u00b7 Perplexity",
+      "Google AI Overviews",
+      "llms.txt",
+      "Python / FastMCP"
+    ]
   },
   "contact": {
     "headline": "Let's talk.",
@@ -222,5 +545,5 @@
     "driveUrl": "https://drive.google.com/drive/u/0/folders/1pEXjHltkZiq_P9cqK9ZLltbc1IuxDnuu",
     "githubUrl": "#"
   },
-  "footer": "ANDREA CLARIZZE DALAY · QUEZON CITY, PH · © 2026"
+  "footer": "ANDREA CLARIZZE DALAY \u00b7 QUEZON CITY, PH \u00b7 \u00a9 2026"
 }
