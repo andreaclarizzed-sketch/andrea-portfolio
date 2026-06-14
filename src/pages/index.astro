@@ -89,6 +89,23 @@ a{color:inherit;text-decoration:none}
 .about-bullet::before{content:"→";color:var(--accent);font-weight:600;flex-shrink:0;margin-top:1px}
 @media (max-width:960px){.about-grid{grid-template-columns:1fr;gap:32px}}
 
+/* HIGHLIGHTS STRIP */
+.highlights{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:48px 0 16px;padding:0}
+.hl-card{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:32px 28px;transition:all .25s}
+.hl-card:hover{border-color:var(--accent);transform:translateY(-3px)}
+.hl-card .hl-n{font-family:var(--serif);font-size:52px;font-weight:400;color:var(--text);letter-spacing:-.02em;line-height:1}
+.hl-card .hl-n em{font-style:italic;color:var(--accent);font-weight:400}
+.hl-card .hl-l{font-size:14px;color:var(--muted);letter-spacing:.04em;margin-top:14px;line-height:1.4}
+@media (max-width:820px){.highlights{grid-template-columns:repeat(2,1fr)}.hl-card .hl-n{font-size:38px}}
+
+/* PULL QUOTE */
+.pullquote{margin:48px 0;padding:80px 56px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);position:relative;text-align:center}
+.pullquote .pq-mark{position:absolute;top:24px;left:48px;font-family:var(--serif);font-size:140px;color:var(--accent-2);line-height:1;font-weight:400;opacity:.6}
+.pullquote p{font-family:var(--serif);font-size:clamp(28px,4vw,44px);font-weight:400;line-height:1.25;letter-spacing:-.015em;color:var(--text);max-width:920px;margin:0 auto}
+.pullquote p em{font-style:italic;color:var(--accent)}
+.pullquote .pq-attr{margin-top:32px;font-size:14px;color:var(--muted);letter-spacing:.04em}
+@media (max-width:820px){.pullquote{padding:60px 28px}.pullquote .pq-mark{font-size:90px;left:24px;top:14px}}
+
 /* ROLE CARD SECTIONS (Copy / SEO / Samples) */
 .rolecard{background:var(--card);border-radius:var(--radius);padding:64px 56px;margin:32px 0;position:relative;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.02),0 30px 60px -30px rgba(30,27,23,.1);border:1px solid var(--line)}
 .rolecard.dark{background:var(--dark);color:#EFE7DA;border-color:#2A2520}
@@ -103,6 +120,9 @@ a{color:inherit;text-decoration:none}
 .rolecard.dark .work-meta{color:rgba(239,231,218,.55);border-color:rgba(255,255,255,.08)}
 .rolecard.dark .work-meta .arrow{background:var(--accent-2);color:var(--dark)}
 .rolecard.dark .work-item:hover .arrow{background:#fff}
+.work-item.no-link{cursor:default}
+.work-item.no-link:hover{transform:none;box-shadow:none}
+.rolecard.dark .work-item.no-link:hover{border-color:rgba(255,255,255,.08);background:rgba(255,255,255,.04)}
 /* EDITORIAL LIGHT SECTIONS — now boxed cards */
 .editorial-section{background:var(--card);border-radius:var(--radius);padding:72px 56px;margin:32px 0;border:1px solid var(--line);position:relative;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.02),0 30px 60px -30px rgba(30,27,23,.1)}
 .editorial-section.tinted{background:var(--cream)}
@@ -327,6 +347,14 @@ footer.site .femail{color:#fff;font-weight:500}
     </div>
   </section>
 
+  <!-- HIGHLIGHTS STRIP (visual break after hero) -->
+  <section class="highlights">
+    <div class="hl-card"><div class="hl-n">$5<em>M+</em></div><div class="hl-l">in Tracked Sales Generated</div></div>
+    <div class="hl-card"><div class="hl-n">+250<em>%</em></div><div class="hl-l">Organic Growth (24 mo.)</div></div>
+    <div class="hl-card"><div class="hl-n">5<em> yrs</em></div><div class="hl-l">Direct Response + SEO</div></div>
+    <div class="hl-card"><div class="hl-n">9<em>+</em></div><div class="hl-l">Industries Written For</div></div>
+  </section>
+
   <!-- DIRECT RESPONSE COPYWRITING -->
   <section class="rolecard" id="work">
     <div class="rolecard-ghost">COPYWRITING</div>
@@ -365,19 +393,34 @@ footer.site .femail{color:#fff;font-weight:500}
     <div class="rolecard-ghost" style="right:-30px;left:auto">SEO</div>
     <div class="rolecard-label"><span class="slash">/</span>SEO SPECIALIST</div>
     <div class="work-grid">
-      {seoProjects.map((p, i) => (
-        <a class="work-item" href={p.link} target="_blank" rel="noopener">
-          <div class="left-body">
-            <div class="work-num">{String(i+1).padStart(2,'0')} — {p.category}</div>
-            <div class="work-title">{p.title}</div>
-            <div class="work-desc">{p.description}</div>
-            <div class="work-tags">{p.tags.map((t: string) => <span>{t}</span>)}</div>
-            <div class="work-metric">{p.metric}</div>
-            <div class="work-meta"><span>{p.label}</span><span class="arrow">↗</span></div>
-          </div>
-        </a>
-      ))}
+      {seoProjects.map((p, i) => {
+        const hasCase = p.slug && p.detail;
+        const Tag = hasCase ? 'a' : 'div';
+        const props = hasCase ? { class: 'work-item', href: p.link, target: '_blank', rel: 'noopener' } : { class: 'work-item no-link' };
+        return (
+          <Tag {...props}>
+            <div class="left-body">
+              <div class="work-num">{String(i+1).padStart(2,'0')} — {p.category}</div>
+              <div class="work-title">{p.title}</div>
+              <div class="work-desc">{p.description}</div>
+              <div class="work-tags">{p.tags.map((t: string) => <span>{t}</span>)}</div>
+              <div class="work-metric">{p.metric}</div>
+              <div class="work-meta">
+                <span>{hasCase ? p.label : 'OVERVIEW'}</span>
+                {hasCase && <span class="arrow">↗</span>}
+              </div>
+            </div>
+          </Tag>
+        );
+      })}
     </div>
+  </section>
+
+  <!-- PULL QUOTE (visual rest) -->
+  <section class="pullquote">
+    <div class="pq-mark">"</div>
+    <p>Most AI-generated SEO content doesn't rank because it has <em>no source.</em> The next era of SEO isn't producing more — it's producing things AI summarizers will actually cite.</p>
+    <div class="pq-attr">— My working hypothesis for 2026</div>
   </section>
 
   <!-- EXPERIENCE -->
