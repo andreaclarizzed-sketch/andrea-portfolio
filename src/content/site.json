@@ -63,23 +63,86 @@
     },
     {
       "number": "02",
-      "category": "LOCAL SEO",
-      "title": "Local SEO for small-to-large businesses, single and multi-location.",
-      "description": "Full stack: GBP strategy, NAP consistency, local schema, review velocity, and city-page architecture that doesn't trip doorway penalties. SAB and brick-and-mortar across US clients.",
-      "tags": ["Local SEO", "GBP", "Schema"],
-      "metric": "Page-1 local pack across YMYL",
+      "slug": "02",
+      "category": "ORGANIC GROWTH",
+      "title": "Client Ranking Achievement — Medical Tourism",
+      "description": "Took over a stalled SEO program post-Helpful Content Update. Restructured keyword map, rebuilt commercial service pages, expanded topical clusters. Organic traffic scaled from ~11K to 50K+ monthly visits in 24 months.",
+      "tags": ["Organic Growth", "YMYL", "Topical Authority", "Content Strategy"],
+      "metric": "+250% organic growth · 11K → 50K monthly visits",
       "label": "Case Study",
-      "link": "https://drive.google.com/drive/u/0/folders/1xsgaYNYmlXjhQQwxFfLx2meKBNFXGprW"
+      "link": "/projects/02",
+      "detail": {
+        "client": "Medical Tourism Client (US-based, client name redacted)",
+        "role": "SEO Lead",
+        "dateRange": "24-month engagement",
+        "overview": "Client is a US-based medical tourism company connecting patients with vetted dental providers overseas. When I took over the SEO direction, the site had plateaued at ~11,000 monthly organic visits and was beginning to decline following the Google Helpful Content Update — despite a consistent publishing cadence and an existing SEO strategy in place.",
+        "topline": [
+          {"value": "+250%", "label": "Organic Growth"},
+          {"value": "50K+", "label": "Monthly Visits"},
+          {"value": "11.5K", "label": "Ranking Keywords"},
+          {"value": "$82.9K", "label": "Traffic Cost Equiv."}
+        ],
+        "channels": [
+          {"channel": "Before — Keywords", "revenue": "6.2K", "cvr": "—", "share": "Pre-engagement baseline"},
+          {"channel": "Before — Monthly Traffic", "revenue": "16.1K", "cvr": "—", "share": "Declining post-HCU"},
+          {"channel": "After — Keywords", "revenue": "11.5K", "cvr": "+85%", "share": "24 months in"},
+          {"channel": "After — Monthly Traffic", "revenue": "49.9K", "cvr": "+210%", "share": "Sustained growth"},
+          {"channel": "Top-ranking commercial terms", "revenue": "Page 1", "cvr": "—", "share": "tooth chart · teeth numbers · dental implants cost"}
+        ],
+        "deliverables": [
+          "Root-cause analysis using GSC data to diagnose post-HCU decline",
+          "Keyword map rebuilt around real search behavior, not assumed intent",
+          "Core service pages reworked to target high-intent commercial terms",
+          "Supporting content clusters expanded to strengthen topical authority",
+          "Content quality framework aligned to E-E-A-T guidelines",
+          "Ongoing optimization for highly-competitive YMYL keywords"
+        ],
+        "approach": "I led a full restructuring of the SEO program — rebuilding the keyword map around real search behavior, reworking core service pages to target high-intent commercial terms, and expanding supporting content clusters to strengthen topical authority across the site. The client depends almost entirely on organic traffic through articles following E-E-A-T guidelines, so every content decision was made against that bar.",
+        "source": "Source: Ahrefs Organic Rankings (before/after snapshots)",
+        "samplesNote": "Performance dashboards and content samples available upon request (client identity redacted to protect confidentiality)."
+      }
     },
     {
       "number": "03",
-      "category": "MULTI-LOCATION",
-      "title": "Scaling SEO across dozens of locations without cannibalization.",
-      "description": "Centralized content + schema framework with location-specific signals layered on top. Each location ranks for its own geo-modifier without competing with siblings.",
-      "tags": ["Multi-Location", "GBP at Scale", "Audits"],
-      "metric": "Consistent multi-site visibility",
+      "slug": "03",
+      "category": "MULTI-LOCATION / LOCAL SEO",
+      "title": "Atlanta OBGYN Clinic — GBP & Multi-Location",
+      "description": "Local SEO and multi-location strategy for a US OBGYN practice. Authority Score 34, 16.3K organic traffic, 12.8K ranking keywords, 255 referring domains, 44.93% visibility — with AI-search citations across ChatGPT, Google AI Overview, and Gemini.",
+      "tags": ["Local SEO", "GBP", "Multi-Location", "AI Search Visibility"],
+      "metric": "44.93% visibility · 162 AI mentions · 150 cited pages",
       "label": "Case Study",
-      "link": "https://drive.google.com/drive/u/0/folders/10mCsfUD1BRXyxAquVpJ_MLqmcPz4Yzm4"
+      "link": "/projects/03",
+      "detail": {
+        "client": "US OBGYN Clinic (Atlanta-based, client name redacted)",
+        "role": "Local & Multi-Location SEO Strategist",
+        "dateRange": "Ongoing engagement",
+        "overview": "An Atlanta-based OBGYN practice operating across multiple clinic locations. The brand needed full-stack local SEO covering Google Business Profile optimization, multi-location schema, citation consistency, and AI-search visibility — without cannibalization between location pages competing for the same metro queries.",
+        "topline": [
+          {"value": "44.93%", "label": "Visibility"},
+          {"value": "16.3K", "label": "Organic Traffic"},
+          {"value": "12.8K", "label": "Organic Keywords"},
+          {"value": "255", "label": "Referring Domains"}
+        ],
+        "channels": [
+          {"channel": "AI Visibility (composite)", "revenue": "26", "cvr": "—", "share": "Score across LLM surfaces"},
+          {"channel": "ChatGPT mentions", "revenue": "1", "cvr": "—", "share": "Cited pages: 33"},
+          {"channel": "Google AI Overview", "revenue": "149", "cvr": "—", "share": "Cited pages: 130"},
+          {"channel": "AI Mode", "revenue": "6", "cvr": "—", "share": "Cited pages: 37"},
+          {"channel": "Gemini", "revenue": "6", "cvr": "—", "share": "Cited pages: 17"},
+          {"channel": "Top 10 ranking keywords", "revenue": "104", "cvr": "—", "share": "Competitive OBGYN terms"}
+        ],
+        "deliverables": [
+          "Google Business Profile optimization across all clinic locations",
+          "Multi-location schema (MedicalBusiness, MedicalSpecialty)",
+          "NAP consistency audit and citation cleanup across local directories",
+          "Location-specific content built to avoid cannibalization with sibling pages",
+          "AI-search optimization for ChatGPT, Google AI Overview, AI Mode, Gemini",
+          "Review velocity and Q&A optimization tied to each location"
+        ],
+        "approach": "Built a centralized framework for core medical content (E-E-A-T-compliant, author-credentialed) with location-specific signals layered on top — real local testimonials, embedded GBP maps, location-specific photos. AI-search optimization treated as its own discipline: structured FAQ markup, chunk-optimized passages, llms.txt, and first-party expert quotes designed for LLM citation rather than blue-link ranking alone.",
+        "source": "Source: Semrush SEO Dashboard (composite, last 90 days)",
+        "samplesNote": "GBP audit deck and location-page samples available upon request (client identity redacted)."
+      }
     },
     {
       "number": "04",
