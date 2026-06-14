@@ -60,7 +60,7 @@
             "num": "01",
             "title": "DTC Health & Wellness Brand",
             "category": "Pain Relief / Compression",
-            "source": "Source URL redacted",
+            "source": "Source: GA4",
             "image": "/projects/koprez-bestsellers.png",
             "imageCaption": "Bestseller and testimonial section from the brand site \u2014 all wordmarks and customer-name initials redacted.",
             "overview": "DTC pain relief and compression product line operating in a Meta-ad-restricted health category. Target audience was older adults in chronic pain \u2014 meaning copy had to thread a YMYL needle: empathetic to the pain narrative without making medical claims that would trigger ad policy reviews. Funnel mixed cold traffic from paid social (Meta + TikTok) and warm traffic from direct landing pages and email lifecycle. Wrote VSL-style sales copy, advertorial intros, long-form landing pages, and full email sequences (welcome, browse-abandon, cart-abandon, post-purchase, win-back). All work was structured around documented voice-of-customer pulled from review mining and chat logs.",
@@ -78,14 +78,13 @@
               "Paid Social: $1.10M revenue at 47.69% session conversion rate",
               "Direct (landing pages): $2.32M revenue at 29.3% conversion"
             ],
-            "source": "Source: GA4",
             "samplesNote": "Sample copywriting is not available on this page \u2014 only viewable in the private Drive folder for client confidentiality."
           },
           {
             "num": "02",
             "title": "Men's Retail Store",
             "category": "Apparel / Chinos",
-            "source": "Source URL redacted",
+            "source": "Source URL redacted for client confidentiality",
             "image": "/projects/ecom-frankster.png",
             "imageCaption": "Collection page \u2014 brand logo redacted.",
             "overview": "Boutique Australian-style men's chino brand selling into the US market. Brand voice needed to sit between practical (everyday wearable, machine-washable, 100-day guarantee) and aspirational (the look, the fabric, the lifestyle) \u2014 without sounding like another generic DTC men's apparel brand. Wrote collection pages, product pages, and supporting content to push qualified browse traffic deeper into the conversion funnel. Focused on bridging the gap between trust signals (free returns, USA shipping, 5-star reviews) and the actual buying decision.",
@@ -102,14 +101,13 @@
               "Higher engagement and time-on-page on top-converting PDPs",
               "Reduced bounce on category landing pages following rewrite"
             ],
-            "source": "Source URL redacted for client confidentiality",
             "samplesNote": "Live copy and brand guidelines are in the private Drive folder."
           },
           {
             "num": "03",
             "title": "High-End Skincare Retail",
             "category": "Luxury Beauty / Multi-Brand Retailer",
-            "source": "Source URL redacted",
+            "source": "Source URL redacted for client confidentiality",
             "image": "/projects/ecom-skincare.png",
             "imageCaption": "ALL BRANDS landing page \u2014 retailer name and logo redacted.",
             "overview": "Curated high-end multi-brand skincare retailer. Audience skews older, higher-income, more educated on actives, brands, and rituals. That changed everything about the voice \u2014 copy needed to assume product knowledge, lead with formulation and provenance rather than benefit shouting, and treat readers like discerning buyers, not impulse-shoppers. Wrote brand collection pages, product detail copy, and editorial-style category guides supporting a multi-brand retailer model where each brand has its own positioning to honor.",
@@ -126,7 +124,6 @@
               "Editorial content built to support higher-consideration purchase paths",
               "PDP rewrites aligned with multi-brand merchandising"
             ],
-            "source": "Source URL redacted for client confidentiality",
             "samplesNote": "Brand voice samples and PDP examples are in the private Drive folder."
           }
         ],
@@ -274,9 +271,18 @@
         "source": "Source: Ahrefs Organic Rankings (before/after snapshots)",
         "samplesNote": "Performance dashboards and content samples available upon request (client identity redacted to protect confidentiality).",
         "images": [
-          {"src": "/projects/seo-medtourism-before.png", "caption": "Before — Ahrefs Organic Rankings. Client domain redacted. ~6.2K keywords, 16.1K monthly traffic, declining post-HCU."},
-          {"src": "/projects/seo-medtourism-after.png", "caption": "After — Ahrefs Organic Rankings. Client domain redacted. 11.5K keywords (+85%), 49.9K monthly traffic (+210%) following 24-month restructure."},
-          {"src": "/projects/seo-medtourism-keywords.png", "caption": "Top-ranking keywords across high-intent commercial dental terms — tooth chart, teeth numbers, cost of full mouth dental implants."}
+          {
+            "src": "/projects/seo-medtourism-before.png",
+            "caption": "Before \u2014 Ahrefs Organic Rankings. Client domain redacted. ~6.2K keywords, 16.1K monthly traffic, declining post-HCU."
+          },
+          {
+            "src": "/projects/seo-medtourism-after.png",
+            "caption": "After \u2014 Ahrefs Organic Rankings. Client domain redacted. 11.5K keywords (+85%), 49.9K monthly traffic (+210%) following 24-month restructure."
+          },
+          {
+            "src": "/projects/seo-medtourism-keywords.png",
+            "caption": "Top-ranking keywords across high-intent commercial dental terms \u2014 tooth chart, teeth numbers, cost of full mouth dental implants."
+          }
         ]
       },
       "roleSection": "seo"
@@ -369,8 +375,14 @@
         "source": "Source: Semrush SEO Dashboard (composite, last 90 days)",
         "samplesNote": "GBP audit deck and location-page samples available upon request (client identity redacted).",
         "images": [
-          {"src": "/projects/seo-obgyn-services.png", "caption": "Service line landing cards — Obstetrics and Gynecology. Client name and clinic branding redacted."},
-          {"src": "/projects/seo-obgyn-dashboard.png", "caption": "Semrush SEO Dashboard — composite view across AI Visibility, organic traffic, position tracking, and site health. Client domain redacted."}
+          {
+            "src": "/projects/seo-obgyn-services.png",
+            "caption": "Service line landing cards \u2014 Obstetrics and Gynecology. Client name and clinic branding redacted."
+          },
+          {
+            "src": "/projects/seo-obgyn-dashboard.png",
+            "caption": "Semrush SEO Dashboard \u2014 composite view across AI Visibility, organic traffic, position tracking, and site health. Client domain redacted."
+          }
         ]
       },
       "roleSection": "seo"
@@ -502,37 +514,37 @@
     }
   ],
   "process": {
-    "title": "From keyword to conversion \u2014 the 6-step system",
+    "title": "How I build SEO programs \u2014 local & national targeting.",
     "steps": [
       {
-        "number": "01 \u2014 RESEARCH",
-        "title": "Discovery",
-        "description": "VoC interviews, review mining (Amazon, Reddit, G2), competitor teardowns. Semrush MCP runs SERP + gap analysis in parallel."
+        "number": "01 \u2014 AUDIT",
+        "title": "Technical & Content Baseline",
+        "description": "Full site crawl, Core Web Vitals, indexation health, schema gaps, internal linking equity. GA4 + GSC baseline so every later decision is measured against a real starting point, not an assumption."
       },
       {
-        "number": "02 \u2014 INTENT MAP",
-        "title": "Cluster",
-        "description": "Keywords clustered by search intent \u2014 informational, commercial, transactional, navigational. Volume is secondary."
+        "number": "02 \u2014 KEYWORD MAPPING",
+        "title": "Volume, Intent, Difficulty",
+        "description": "Build the keyword universe segmented by location (city / region / national / multi-location) and difficulty. Map each keyword to a single target URL \u2014 no two pages should chase the same query, ever."
       },
       {
-        "number": "03 \u2014 BRIEF",
-        "title": "Outline",
-        "description": "SERP-aligned: PAA coverage, entity checklist, competitor gaps, internal linking targets, schema spec, conversion goal."
+        "number": "03 \u2014 INTENT",
+        "title": "Search-Intent Mapping",
+        "description": "Cluster by intent \u2014 informational, commercial-investigation, transactional, navigational. Intent decides page type, format, and funnel position. Volume is secondary to intent fit."
       },
       {
-        "number": "04 \u2014 DRAFT",
-        "title": "Write",
-        "description": "Schwartz awareness/sophistication hook, then Hook-Story-Offer or PAS body. First-party proof stacked throughout."
+        "number": "04 \u2014 SERVICE PAGES",
+        "title": "Money Pages First",
+        "description": "Build or rewrite the high-intent commercial service pages targeting the strongest money keywords. Local: city + service pages with real local signals. National: category + comparison + best-of pages."
       },
       {
-        "number": "05 \u2014 OPTIMIZE",
-        "title": "Ship",
-        "description": "Structured data, internal linking equity, chunk-optimized passages for LLM citation, llms.txt where relevant."
+        "number": "05 \u2014 TOPICAL CLUSTERS",
+        "title": "Pillars + Supporting Content",
+        "description": "Pillar pages own the core topic; supporting cluster articles cover the long tail and reinforce topical authority. Internal linking flows authority from clusters into the money service pages."
       },
       {
-        "number": "06 \u2014 DECAY WATCH",
-        "title": "Maintain",
-        "description": "Monthly GSC query analysis, quarterly cannibalization audits, refresh cycles triggered by Core Updates and HCU rollouts."
+        "number": "06 \u2014 SCALE & MONITOR",
+        "title": "Local: GBP + Schema \u00b7 National: Links + SERP Features",
+        "description": "Local programs: Google Business Profile, citations, NAP consistency, local schema. National: digital PR, link building, SERP feature targeting (FAQ, How-To, AI Overviews). Monthly GSC review + quarterly cannibalization audits."
       }
     ]
   },
